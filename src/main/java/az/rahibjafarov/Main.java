@@ -11,5 +11,8 @@ public class Main {
 
         System.out.println(IntWithAtomicInteger.class.getName());
         IntWithAtomicInteger.run();
+
+        System.out.println(IntWithCustomAtomicInteger.class.getName());
+        IntWithCustomAtomicInteger.run();
     }
 }

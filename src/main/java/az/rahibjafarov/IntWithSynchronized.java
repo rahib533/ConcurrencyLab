@@ -1,7 +1,7 @@
 package az.rahibjafarov;
 
 public class IntWithSynchronized {
-    static int counter = 0;
+    static volatile int counter = 0;
 
     public static void run() throws InterruptedException {
         Runnable r = () -> {

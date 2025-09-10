@@ -8,5 +8,8 @@ public class Main {
 
         System.out.println(IntWithSynchronized.class.getName());
         IntWithSynchronized.run();
+
+        System.out.println(IntWithAtomicInteger.class.getName());
+        IntWithAtomicInteger.run();
     }
 }

@@ -1,4 +1,4 @@
-package az.rahibjafarov;
+package com.rahibjafarov;
 
 public class IntWithRaceCondition {
     static volatile int counter = 0;
